@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 230701daa540c894fac5ca3aaca62550, type: 3}
+  m_Name: PlayerSO
+  m_EditorClassIdentifier: 
+  <PlayerConditionData>k__BackingField:
+    MaxLevel: 20
+    MovementSpeed: 10
+    StartMaxHealthPoint: 100
+    StartHealthPointRecovery: 0
+    IncreaseOfHealthPointPerLevel: 5
+    IncreaseOfHealthPointRecoveryPerLevel: 0.1
+    StartMaxStaminaPoint: 40
+    StartStaminaPointRecovery: 0.79
+    StaminaPointConsumption: 1.76
+    IncreaseOfStaminaPointPerLevel: 1.76
+    IncreaseOfStaminaPointRecoveryPerLevel: 1.36
+    <JumpForce>k__BackingField: 8
+    FootstepSoundEffect: {fileID: 0}
+  <PlayerRangedWeaponData>k__BackingField:
+    ProjectileDamage: 10
+    ProjectileNumber: 1
+    ProjectileSize: 0.5
+    ProjectileSpeed: 100
+    ProjectilePiercing: 0
+    ShootRange: 100
+    BulletCapacity: 45
+    FireRatePerMinute: 600
+    ReloadingTime: 1
+    MinuteOfAngleMin: 0.02
+    MinuteOfAngleMax: 10
+    MinuteOfAngleRecoveryPerSec: 0.2
+    MinuteOfAngleIncreasePerFire: 0.01
+    HorizontalRecoil: 4
+    VerticalRecoil: 3
+    CriticalDamageChance: 0.01
+    CriticalDamageMultiplier: 1.5
+    FireSoundEffect: {fileID: 0}
+    ReloadSoundEffect: {fileID: 0}
+  <PlayerMeleeWeaponData>k__BackingField:
+    <AttackInfoDatas>k__BackingField:
+    - <AttackName>k__BackingField: Axe Combo 1
+      <ComboStateIndex>k__BackingField: 1
+      <ComboTransitionTime>k__BackingField: 0.7
+      <ForceTransitionTime>k__BackingField: 0.1
+      <Force>k__BackingField: 1
+      <DamageMultiplier>k__BackingField: 0.7
+      <MeleeWeaponKnockBackForceMultiplier>k__BackingField: 1
+    - <AttackName>k__BackingField: Axe Combo 2
+      <ComboStateIndex>k__BackingField: 2
+      <ComboTransitionTime>k__BackingField: 0.7
+      <ForceTransitionTime>k__BackingField: 0.2
+      <Force>k__BackingField: 2
+      <DamageMultiplier>k__BackingField: 0.4
+      <MeleeWeaponKnockBackForceMultiplier>k__BackingField: 0.7
+    - <AttackName>k__BackingField: Axe Combo 3
+      <ComboStateIndex>k__BackingField: -1
+      <ComboTransitionTime>k__BackingField: 0.7
+      <ForceTransitionTime>k__BackingField: 0.1
+      <Force>k__BackingField: 3
+      <DamageMultiplier>k__BackingField: 1.2
+      <MeleeWeaponKnockBackForceMultiplier>k__BackingField: 1.5
+    MeleeWeaponAttackSpeed: 1
+    MeleeWeaponAttackDamage: 35
+    MeleeWeaponKnockBackForce: 1
+    MeleeWeaponUseStamina: 8

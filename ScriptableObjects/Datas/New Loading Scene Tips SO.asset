@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c917a62531cf82d4282f12674fb89659, type: 3}
+  m_Name: New Loading Scene Tips SO
+  m_EditorClassIdentifier: 
+  tipTexts:
+  - "\uC77C\uBC18\uC0C1\uC790\uC5D0\uC11C\uB3C4 \uC720\uB2C8\uD06C \uC544\uC774\uD15C\uC774
+    \uB098\uC62C \uC218 \uC788\uC2B5\uB2C8\uB2E4!"
+  - "\uD1A0\uB124\uC774\uB3C4\uB294 \uC774\uC804 \uBC84\uC804\uC5D0\uC11C \uAE40\uCE58\uC804\uC774\uB77C\uB294
+    \uBCC4\uBA85\uC744 \uBC1B\uC558\uC2B5\uB2C8\uB2E4."
+  - "\uBAAC\uC2A4\uD130\uAC00 \uD22C\uBA85\uD574\uC9C0\uBA74 \uB370\uBBF8\uC9C0\uAC00
+    \uB4E4\uC5B4\uAC00\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4!"
+  - "\uAC70\uBBF8\uB97C \uBCF4\uACE0\uC2F6\uC9C0 \uC54A\uB2E4\uB294 \uC774\uC720\uB85C
+    \uD22C\uBA85 \uC2A4\uD0AC\uC774 \uCD94\uAC00\uB418\uC5C8\uC2B5\uB2C8\uB2E4."
+  - "\uC549\uC73C\uBA74 \uBC8C\uC5B4\uC9C4 \uC5D0\uC784\uC774 \uD68C\uBCF5\uB418\uB294
+    \uC18D\uB3C4\uAC00 \uBE68\uB77C\uC9D1\uB2C8\uB2E4."

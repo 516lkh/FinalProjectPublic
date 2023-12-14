@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888f4b61c326c4d4d964698981d75ef6, type: 3}
+  m_Name: AttackSpeedBuff
+  m_EditorClassIdentifier: 
+  displayName: "\uD0C4\uD658 \uC5F0\uC0AC\uC728 \uC99D\uAC00"
+  description: "3\uCD08\uB3D9\uC548 \uD0C4\uD658 \uBC1C\uC0AC \uC18D\uB3C4\uAC00
+    \uBE68\uB77C\uC9C4\uB2E4."
+  icon: {fileID: 21300000, guid: b0cbb8d3b847b4bd7b0a19c7b3cae212, type: 3}
+  unlockLv: 1
+  skillTime: 5
+  coolTime: 10
+  skillEffect: {fileID: 13030620301443551, guid: 3dd8a2b4b916a4edcb8eee973e5b50fe,
+    type: 3}
+  skillPosition: 1
+  skillRangeType: 0
+  skillType: 0
+  weaponType: 1
+  projectileDamage: 1
+  projectileNum: 0
+  projectileSpeed: 1.8
+  shootRange: 1
+  bulletCapacity: 1
+  fireRatePerMinute: 1
+  reloadingTime: 0.5
+  minuteOfAngleMin: 1
+  minuteOfAngleRecoveryPerSec: 1
+  minuteOfAngleIncreasePerFire: 1
+  recoil: 1
+  effectNum: 0
+  effectTime: 0
+  effectHpPercentage: 0
+  playerMovementSpeed: 0
+  playerJumpForce: 1
+  playerstartMaxHealthPoint: 1
+  playerHealthPointRecovery: 0
+  playerStaminaPointRecovery: 0
+  playerStaminaPointconsumption: 1

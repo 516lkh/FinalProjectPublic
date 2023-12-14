@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ee0d35da4374234b9f99ffc99b74f86, type: 3}
+  m_Name: New Item Box Positions
+  m_EditorClassIdentifier: 
+  boxDatas:
+  - Positions: {x: 31.42, y: -0.08, z: 2.95}
+    Rotations: {x: 0, y: 270, z: 0}
+  - Positions: {x: 70.49, y: 0.29, z: -21.83}
+    Rotations: {x: 0, y: 0, z: 0}
+  - Positions: {x: 39.961, y: 0.001, z: -30.54}
+    Rotations: {x: 0, y: 0, z: 0}
+  - Positions: {x: 71.12, y: 0.297, z: -21.88}
+    Rotations: {x: 0, y: 0, z: 0}
+  - Positions: {x: 109.81, y: 0.375, z: -32.05}
+    Rotations: {x: 0, y: 0, z: 0}
+  - Positions: {x: 104.26, y: 0.401, z: -4.835}
+    Rotations: {x: 0, y: 168.49571, z: 0}
+  - Positions: {x: 91.795, y: 0.22, z: 47.279}
+    Rotations: {x: 0, y: 0, z: 0}
+  - Positions: {x: 81.452, y: 0.192, z: 63.963}
+    Rotations: {x: 0, y: -90, z: 0}
+  - Positions: {x: -130.01, y: 0.01, z: 80.065}
+    Rotations: {x: 0, y: 180, z: 0}
+  - Positions: {x: -129.514, y: 0.039, z: -40.923}
+    Rotations: {x: 0, y: 90, z: 0}
+  - Positions: {x: -154.112, y: 0.126, z: -60.16}
+    Rotations: {x: 0, y: 180, z: 0}
+  - Positions: {x: 16.315, y: 0.001, z: -114.478}
+    Rotations: {x: 0, y: 90, z: 0}
+  - Positions: {x: 16.315, y: 0.001, z: -113.764}
+    Rotations: {x: 0, y: 90, z: 0}
+  - Positions: {x: 16.315, y: 0.001, z: -113.05}
+    Rotations: {x: 0, y: 90, z: 0}
+  - Positions: {x: 14.984, y: -0.002, z: -74.36}
+    Rotations: {x: 0, y: 90, z: 0}
+  - Positions: {x: 53.58, y: -0.01, z: -122.06}
+    Rotations: {x: 0, y: 0, z: 0}
+  - Positions: {x: 56.2, y: -0.059, z: -108.141}
+    Rotations: {x: 0, y: 0, z: 0}
+  - Positions: {x: 60.861, y: 0.366, z: -69.476}
+    Rotations: {x: 0, y: 0, z: 0}
+  - Positions: {x: 59.765, y: 0.475, z: -70.275}
+    Rotations: {x: 0, y: 180, z: 0}

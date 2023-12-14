@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888f4b61c326c4d4d964698981d75ef6, type: 3}
+  m_Name: DamageBuffBullet
+  m_EditorClassIdentifier: 
+  displayName: "\uD0C4\uD658 \uB370\uBBF8\uC9C0 \uC99D\uAC00"
+  description: "5\uCD08\uB3D9\uC548 \uB370\uBBF8\uC9C0\uAC00 \uC99D\uAC00\uB41C \uD0C4\uD658\uC744
+    \uBC1C\uC0AC\uD55C\uB2E4."
+  icon: {fileID: 21300000, guid: f0764ebc80ac244caa5564a7bae9d037, type: 3}
+  unlockLv: 1
+  skillTime: 5
+  coolTime: 10
+  skillEffect: {fileID: 1304648810841742278, guid: c931d9d252db54699a5703af389e2eb6,
+    type: 3}
+  skillPosition: 1
+  skillRangeType: 0
+  skillType: 0
+  weaponType: 1
+  projectileDamage: 2.5
+  projectileNum: 0
+  projectileSpeed: 1
+  shootRange: 1
+  bulletCapacity: 1
+  fireRatePerMinute: 1
+  reloadingTime: 1
+  minuteOfAngleMin: 1
+  minuteOfAngleRecoveryPerSec: 1
+  minuteOfAngleIncreasePerFire: 1
+  recoil: 1
+  effectNum: 0
+  effectTime: 0
+  effectHpPercentage: 20
+  playerMovementSpeed: 0
+  playerJumpForce: 1
+  playerstartMaxHealthPoint: 1
+  playerHealthPointRecovery: 0
+  playerStaminaPointRecovery: 0
+  playerStaminaPointconsumption: 1

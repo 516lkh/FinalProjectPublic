@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888f4b61c326c4d4d964698981d75ef6, type: 3}
+  m_Name: FireBall
+  m_EditorClassIdentifier: 
+  displayName: "\uD30C\uC774\uC5B4\uBCFC"
+  description: "\uAC70\uB300\uD55C \uD654\uC5FC\uAD6C\uB97C \uC801\uC5D0\uAC8C \uBC1C\uC0AC\uD569\uB2C8\uB2E4.
+    \uC801\uC5D0\uAC8C \uD654\uC0C1 \uD6A8\uACFC\uB97C \uC785\uD799\uB2C8\uB2E4."
+  icon: {fileID: 21300000, guid: a19cebe0599724c469f757f6e0b2d9a4, type: 3}
+  unlockLv: 0
+  skillTime: 6
+  coolTime: 10
+  skillEffect: {fileID: 1550839254079084057, guid: 2e13161bc037b477d80b8e78014a9b59,
+    type: 3}
+  skillPosition: 0
+  skillRangeType: 0
+  skillType: 0
+  weaponType: 0
+  projectileDamage: 40
+  projectileNum: 0
+  projectileSpeed: 5
+  shootRange: 0
+  bulletCapacity: 0
+  fireRatePerMinute: 0
+  reloadingTime: 0
+  minuteOfAngleMin: 0
+  minuteOfAngleRecoveryPerSec: 0
+  minuteOfAngleIncreasePerFire: 0
+  recoil: 0
+  effectNum: 0
+  effectTime: 5
+  effectHpPercentage: 5
+  playerMovementSpeed: 0
+  playerJumpForce: 0
+  playerstartMaxHealthPoint: 0
+  playerHealthPointRecovery: 0
+  playerStaminaPointRecovery: 0
+  playerStaminaPointconsumption: 0

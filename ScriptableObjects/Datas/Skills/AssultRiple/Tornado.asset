@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 888f4b61c326c4d4d964698981d75ef6, type: 3}
+  m_Name: Tornado
+  m_EditorClassIdentifier: 
+  displayName: "\uD1A0\uB124\uC774\uB3C4"
+  description: "\uAC70\uB300\uD55C \uD1A0\uB124\uC774\uB3C4\uB97C \uC0DD\uC131\uD574\uC11C
+    \uC801\uC744 \uACF5\uACA9\uD55C\uB2E4."
+  icon: {fileID: 21300000, guid: 22ebb074f4a6be446b9e9a132ff9036d, type: 3}
+  unlockLv: 9
+  skillTime: 15
+  coolTime: 30
+  skillEffect: {fileID: 6787271262978825353, guid: 391e54e231f1f487d992e456a607045e,
+    type: 3}
+  skillPosition: 1
+  skillRangeType: 0
+  skillType: 0
+  weaponType: 1
+  projectileDamage: 50
+  projectileNum: 0
+  projectileSpeed: 3
+  shootRange: 1
+  bulletCapacity: 1
+  fireRatePerMinute: 1
+  reloadingTime: 1
+  minuteOfAngleMin: 1
+  minuteOfAngleRecoveryPerSec: 1
+  minuteOfAngleIncreasePerFire: 1
+  recoil: 1
+  effectNum: 0
+  effectTime: 5
+  effectHpPercentage: 0
+  playerMovementSpeed: 0
+  playerJumpForce: 1
+  playerstartMaxHealthPoint: 1
+  playerHealthPointRecovery: 0
+  playerStaminaPointRecovery: 0
+  playerStaminaPointconsumption: 1

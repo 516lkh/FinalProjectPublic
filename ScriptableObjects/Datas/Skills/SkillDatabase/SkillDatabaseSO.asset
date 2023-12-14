@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 713107f44bf8044669beb1b0652d9d62, type: 3}
+  m_Name: SkillDatabaseSO
+  m_EditorClassIdentifier: 
+  playerSkillDatabase:
+  - {fileID: 11400000, guid: 22111620f66964d33a9defb6f88a71ca, type: 2}
+  - {fileID: 11400000, guid: e83343f82de064fc393590e3d5365a39, type: 2}
+  weaponSkillDatabase:
+  - {fileID: 11400000, guid: 8557ede955a82416a8817dba1bd196d8, type: 2}
+  - {fileID: 11400000, guid: da8b18f4d89394992a155e32c045f876, type: 2}
+  - {fileID: 11400000, guid: 4b527b81c681a4cd58798c5602ab20ff, type: 2}
+  - {fileID: 11400000, guid: f7fc06ee21ec34888a4c41db2be00511, type: 2}
+  - {fileID: 11400000, guid: b8f4a5dba505849139cdedaedbc577d6, type: 2}
+  - {fileID: 11400000, guid: 491e6cbf96aa54e4d9e9a17dd59e4dbf, type: 2}
+  - {fileID: 11400000, guid: 1c69b20f54e404786ba6c0c32bb686e9, type: 2}
+  ultimateSkillDatabase:
+  - {fileID: 11400000, guid: 1c69b20f54e404786ba6c0c32bb686e9, type: 2}
