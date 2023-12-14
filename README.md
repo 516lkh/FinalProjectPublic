@@ -1,5 +1,5 @@
 # 🔫프로젝트 결과물 소개🔫
-
+![Thumbnail](https://github.com/516lkh/FinalProjectPublic/assets/82098924/91eb9362-ca28-4bbc-a582-5c8ef5e99ab8)
 ### 🎮︎게임 간단 소개🎮︎
 
 크리쳐들을 총으로 사냥하면서 원하는 스킬 트리로 플레이어를 강화하고, 아이템을 수집하여 
@@ -19,7 +19,7 @@
 
 ### 🕹️조작법 🕹️
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/83c75a39-3aba-4ba4-a792-7aefe4b07895/cfb0117c-5b55-44f9-958d-843e3dba49cc/Untitled.png)
+<img width="1000" alt="Untitled" src="https://github.com/516lkh/FinalProjectPublic/assets/82098924/a3d74e65-8223-4ca1-aa72-bf897586917b">
 
 ---
 
@@ -116,7 +116,7 @@
 
 - 매니저 구조
     
-    ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/83c75a39-3aba-4ba4-a792-7aefe4b07895/2a8f89b2-a14c-4435-a99d-bb2b54806761/Untitled.png)
+<img width="575" alt="Untitled (1)" src="https://github.com/516lkh/FinalProjectPublic/assets/82098924/94245473-62b8-4eff-a025-a12afa1f5125">
     
     게임 전반적으로 필요한 메소드, 데이터를 관리하는 파괴되지 않는 매니저
     
@@ -150,12 +150,11 @@
 
 ---
 
-# 코드 샘플 및 주석
+# 코드 샘플
+
 
 - ObjectPooling
-    - ObjectPool
-        
-        
+    - ObjectPool 
         ```
         public class ObjectPool : MonoBehaviour
         {
@@ -208,9 +207,9 @@
         	}
         }
         ```
-        
+
     - ObjectPoolManager
-        
+
         
         ```
         public class ObjectPoolManager : MonoBehaviour
@@ -270,7 +269,8 @@
         	}
         }	
         ```
-        
+
+
 - FiniteStateMachine
     - IState
         
@@ -657,8 +657,7 @@
 | 플레이어 카메라 혼동 문제 :
 플레이어가 이동할때와 가만 있을때 카메라 위치가 부자연스럽게 바뀌는 현상 | 각 State간 필드는 State 끼리 공유하지 않아서 발생한 문제. 카메라 관련 필드를 State 말고 StateMachine / Player 에게 할당하여 각 State들이 공유 |
 | --- | --- |
-| 탄환이 콜라이더에 부딪혔을때 충돌 이펙트가 충돌체 법선방향으로 생성 안되는 문제 | OnTrigerEnter() 로 받아오는 collider는 ‘충돌 위치 정보’ 없이 ‘충돌 했는지’와 ‘충돌 오브젝트 정보’만 갖기때문에 법선벡터를 구할 수 없음.
-하지만 탄환은 trigger 충돌해야 하므로 탄환 충돌시 탄환의 살짝 뒤에서 레이캐스트를 쏘아 충돌 위치 정보(collision)를 갖고 법선벡터방향을 구한뒤 이펙트 적용 |
+| 탄환이 콜라이더에 부딪혔을때 충돌 이펙트가 충돌체 법선방향으로 생성 안되는 문제 | OnTrigerEnter() 로 받아오는 collider는 ‘충돌 위치 정보’ 없이 ‘충돌 했는지’와 ‘충돌 오브젝트 정보’만 갖기때문에 법선벡터를 구할 수 없음. 하지만 탄환은 trigger 충돌해야 하므로 탄환 충돌시 탄환의 살짝 뒤에서 레이캐스트를 쏘아 충돌 위치 정보(collision)를 갖고 법선벡터방향을 구한뒤 이펙트 적용 |
 | SkillManager에서 Scriptable Object 데이터를 받아와서 Get함수로 해당 데이터를 다른 곳에서 범용적으로 쓰려고 했지만 인식되지 않는 문제 | Scriptable Object는 참조 메모리 형식이어서 해당 메모리를 두 번 참조해서 정확한 데이터를 가져올 수 없음. 해결하기 위해 SkillManager에서 메모리를 할당해 값을 초기화해 사용하려고 했지만 추가 메모리 할당과 Scriptable Object 사용하는 이유가 희미해지기 때문에 해당 Scriptable Object 배열을 선언하지 않고 바로 해당 메모리에서 값을 리턴하는 것으로 해결. |
 | 아이템이 수집되지 않는 문제 :  인벤토리가 플레이어 프로퍼티를 제대로 받아오지 못하는 문제 | 매니저에서 선언된 Player객체가 PlayerPack이고, Player스크립트가 PlayerPack하위 객체인 Player에 있었기 때문에 GetComponentInChildren으로 받아 해결 |
 | 스킬트리에서 스킬을 해금할 때 레벨 순서대로 활성화시키지 않은 경우 스킬 발동 키가 달라지는 문제 | 활성화시킨 스킬을 리스트로 저장해서 문제가 생김. 스킬을 해금할 때 딕셔너리에 저장해 key는 스킬을 사용할 키의 이름, value는 해당 스킬 데이터를 담는 방식으로 자료구조를 변경해서 해결 |
